@@ -29,7 +29,4 @@ Route::get('/helloOptParam/{param?}', function ($param='defaultParamValue') {
     echo("Hello {$param}!");
 });
 
-//Route::get('/helloController', [
-//    'middleware' => 'saywelcome',
-//    'uses' => 'TestController@index'
-//]);
+Route::middleware('saywellcome')->get('/helloMiddlController', [\App\Http\Controllers\TestController::class, 'index']);

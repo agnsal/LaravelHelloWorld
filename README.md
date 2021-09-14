@@ -35,6 +35,8 @@ Hello World Laravel 8 application.
 1. /hello: it shows a simple 'Hello World!' on top of the screen
 2. /helloTemplate: it shows 'Hello World!' using a template
 3. /helloOptParam/param: it shows 'Hello param!' on top of the screen
+4. /helloController: it shows a string from a Controller (TestController)
+5. /helloMiddlController: it shows a string from a Middleware (SayWellcome) and a string from a Controller (TestController)
 
 
 ## Contacts
